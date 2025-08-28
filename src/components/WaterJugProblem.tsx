@@ -246,7 +246,7 @@ export default function WaterJugProblem() {
       {/* Instructions */}
       <div className="text-center mb-8 p-4 bg-blue-50 rounded-lg">
         <p className="text-blue-800">
-          <strong>How to play:</strong> Click "Fill from Tap" to fill a jug, "Empty" to empty it, 
+          <strong>How to play:</strong> Click &quot;Fill from Tap&quot; to fill a jug, &quot;Empty&quot; to empty it, 
           or drag and drop from one jug to another to pour water between them.
         </p>
       </div>

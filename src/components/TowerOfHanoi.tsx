@@ -75,7 +75,7 @@ export default function TowerOfHanoi() {
     setMoves(prev => [...prev, moveDescription]);
 
     return true;
-  }, [towers]);
+  }, [towers, canMoveDisk]);
 
   const handleTowerClick = (towerIndex: number) => {
     const tower = towers[towerIndex];

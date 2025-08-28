@@ -57,7 +57,6 @@ export default function BurningRope() {
           newRope.burnPoints = rope.burnPoints.map(point => {
             if (point.active) {
               // Burn spreads in both directions from the middle point
-              const burnSpeed = 100 / rope.totalBurnTime;
               // This would need more complex logic to handle middle burning
               return point;
             }
@@ -186,7 +185,7 @@ export default function BurningRope() {
         </div>
         {isSolved && (
           <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded">
-            🎉 Perfect! You've measured exactly {targetTime} seconds!
+            🎉 Perfect! You&apos;ve measured exactly {targetTime} seconds!
           </div>
         )}
       </div>

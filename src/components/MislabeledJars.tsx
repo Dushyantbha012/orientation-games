@@ -239,7 +239,7 @@ export default function MislabeledJars() {
             <p>2. By drawing from any jar, you learn what type of fruit it actually contains.</p>
             <p>3. Use this information to figure out the contents of the other jars:</p>
             <ul className="list-disc list-inside ml-4 space-y-1">
-              <li>If a jar labeled "Mixed" contains only one type of fruit, the other jars must contain different contents.</li>
+              <li>If a jar labeled &quot;Mixed&quot; contains only one type of fruit, the other jars must contain different contents.</li>
               <li>Since no label is correct, work backwards from what you know to be true.</li>
             </ul>
           </div>
