@@ -154,7 +154,7 @@ export default function TowerOfHanoi() {
 
       {/* Game Status */}
       <div className="text-center mb-8">
-        <div className="text-2xl font-bold mb-2">
+        <div className="text-2xl font-bold mb-2 text-black">
           Moves: {moves.length} / {minMoves}
         </div>
         {isSolved && (
@@ -169,7 +169,7 @@ export default function TowerOfHanoi() {
       <div className="grid grid-cols-3 gap-8 mb-8">
         {towers.map((tower, index) => (
           <div key={tower.id} className="text-center">
-            <h3 className="text-xl font-bold mb-4">Tower {String.fromCharCode(65 + index)}</h3>
+            <h3 className="text-xl font-bold mb-4 text-black">Tower {String.fromCharCode(65 + index)}</h3>
             
             <div 
               className={`relative mx-auto w-36 h-80 cursor-pointer transition-all ${
@@ -261,7 +261,7 @@ export default function TowerOfHanoi() {
       )}
 
       {/* Rules and Strategy */}
-      <div className="mt-8 bg-yellow-50 rounded-lg p-6">
+      <div className="mt-8 bg-yellow-50 rounded-lg p-6 text-black">
         <h3 className="text-lg font-bold mb-4">Rules & Strategy:</h3>
         <div className="text-gray-700 space-y-2 text-sm">
           <p><strong>Rules:</strong></p>
