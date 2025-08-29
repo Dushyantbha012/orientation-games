@@ -152,7 +152,7 @@ export default function WaterJugProblem() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-8">
         {/* Jug A */}
         <div className="text-center">
-          <h3 className="text-xl font-bold mb-4">Jug A (5 Liters)</h3>
+          <h3 className="text-xl font-bold mb-4 text-black">Jug A (5 Liters)</h3>
           <div 
             className={`relative mx-auto w-32 h-48 bg-gray-200 border-4 border-gray-400 rounded-lg overflow-hidden cursor-pointer transition-all ${
               dragSource === 'A' ? 'opacity-50' : 'hover:border-blue-400'
@@ -198,7 +198,7 @@ export default function WaterJugProblem() {
 
         {/* Jug B */}
         <div className="text-center">
-          <h3 className="text-xl font-bold mb-4">Jug B (3 Liters)</h3>
+          <h3 className="text-xl font-bold mb-4 text-black">Jug B (3 Liters)</h3>
           <div 
             className={`relative mx-auto w-32 h-48 bg-gray-200 border-4 border-gray-400 rounded-lg overflow-hidden cursor-pointer transition-all ${
               dragSource === 'B' ? 'opacity-50' : 'hover:border-green-400'
